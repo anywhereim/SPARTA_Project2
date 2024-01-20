@@ -1,0 +1,11 @@
+.all {
+  max-width: 1200px;
+  min-width: 800px;
+  height: 100%;
+  margin: auto;
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: space-between;
+}
