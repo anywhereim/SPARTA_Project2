@@ -1,0 +1,24 @@
+.List {
+  border: 1px solid #faf3f0;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding-bottom: 1rem;
+}
+
+.IconButton {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.Icon {
+  color: #756ab6;
+  font-size: 1.5rem;
+  display: flex;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.Icon:hover {
+  color: #5d3587;
+}

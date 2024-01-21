@@ -1,0 +1,40 @@
+.AddTodo {
+  background-color: #dfccfb;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.P {
+  font-size: 1.5rem;
+  color: #faf3f0;
+  font-weight: bold;
+}
+
+.P2 {
+  font-size: 1.5rem;
+  color: #faf3f0;
+  font-weight: bold;
+}
+
+.Input {
+  margin-left: 2rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.Button {
+  background-color: #756ab6;
+  color: #f1eaff;
+  border-radius: 0.5rem;
+  border: none;
+  width: 3rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.Button:hover {
+  background-color: #5d3587;
+}

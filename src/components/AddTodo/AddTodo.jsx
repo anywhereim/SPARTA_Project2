@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./AddTodo.module.css";
 
 import { v4 as uuidv4 } from "uuid";
 import Input from "../Input/Input";
@@ -26,23 +27,23 @@ export default function AddTodo({ onAdd }) {
   };
 
   return (
-    <div className="AddTodo">
-      <form className="Input" onSubmit={handleSubmit}>
-        <p className="P">제목 </p>
+    <div className={styles.AddTodo}>
+      <form className={styles.Input} onSubmit={handleSubmit}>
+        <p className={styles.P}>제목 </p>
         <Input
           type="text"
           placeholder="제목을 입력해주세요"
           value={title}
           onChange={handleChangeTitle}
         />
-        <p className="P">내용 </p>
+        <p className={styles.P2}>내용 </p>
         <Input
           type="text"
           placeholder="내용을 입력해주세요"
           value={content}
           onChange={handleChangeContent}
         />
-        <button className="Button">Add</button>
+        <button className={styles.Button}>Add</button>
       </form>
     </div>
   );

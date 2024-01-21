@@ -1,11 +1,10 @@
 import React from "react";
+import styles from "./Input.module.css";
 
 export default function Input({ type, placeholder, value, onChange }) {
-  const className = "Inputs";
-
   return (
     <input
-      className={className}
+      className={styles.Inputs}
       type={type}
       placeholder={placeholder}
       value={value}

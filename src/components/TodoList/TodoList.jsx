@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AddTodo from "../AddTodo/AddTodo";
 import Todo from "../Todo/Todo";
+import styles from "./TodoList.module.css";
 
 export default function TodoList() {
   const [todos, setTodos] = useState([]);
@@ -21,10 +22,10 @@ export default function TodoList() {
   return (
     <section>
       <AddTodo onAdd={handleAdd} />
-      <div className="Form">
-        <div className="Working">
-          <div className="H">
-            <h2>Working</h2>
+      <div className={styles.Form}>
+        <div className={styles.Working}>
+          <div>
+            <h2>Working🔥</h2>
           </div>
           <ul>
             {working.map((todo) => (
@@ -37,9 +38,9 @@ export default function TodoList() {
             ))}
           </ul>
         </div>
-        <div className="IsDone">
-          <div className="H">
-            <h2>Completed</h2>
+        <div className={styles.IsDone}>
+          <div>
+            <h2>Done🎉</h2>
           </div>
           <ul>
             {isdone.map((todo) => (

@@ -1,0 +1,59 @@
+.Form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Working {
+  color: #faf3f0;
+  width: 40%;
+  height: 50rem;
+  background-color: #beadfa;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.Working::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.Working::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.Working::-webkit-scrollbar-thumb {
+  background-color: #beadfa;
+  border-radius: 6px;
+  border: 3px solid #f0f0f0;
+}
+
+.IsDone {
+  color: #faf3f0;
+  width: 40%;
+  height: 50rem;
+  background-color: #beadfa;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.IsDone::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.IsDone::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.IsDone::-webkit-scrollbar-thumb {
+  background-color: #beadfa;
+  border-radius: 6px;
+  border: 3px solid #f0f0f0;
+}

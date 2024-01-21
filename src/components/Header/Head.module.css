@@ -1,0 +1,9 @@
+.MainTitle {
+  background-color: #beadfa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f1eaff;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
