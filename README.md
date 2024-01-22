@@ -19,3 +19,11 @@
 3. 체크 버튼(구름 모양)을 누르면 Done으로 Done에서 체크 버튼(구름 모양)을 누르면 Working으로 이동
 4. 쓰레기통 버튼을 누르면 삭제
 ***
+### 🎁 구현된 컴포넌트
+| # | componenet | 설명 |
+| --- | --- | --- |
+| 1 | AddToDo | 사용자로부터 제목, 내용을 입력받아 ToDo 생성 |
+| 2 | Header | 단순 header 컴포넌트 |
+| 3 | Input | 단순 input 컴포넌트 |
+| 4 | Todo | Todo의 상태 변경 구현 (Working : IsDone), 삭제 구현 |
+| 5 | TodoList | 생성된 Todo 상태( Working : IsDone : Delete )에 따라 새로운 배열 생성 |
