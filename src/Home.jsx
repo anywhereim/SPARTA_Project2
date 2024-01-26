@@ -5,7 +5,7 @@ import Head from "./components/Header/Head";
 
 export default function Home() {
   return (
-    <div className="all">
+    <div className="home">
       <Head first="Todo List" second="React" />
       <TodoList />
     </div>

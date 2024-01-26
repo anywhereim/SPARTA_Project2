@@ -4,7 +4,7 @@ import { IoIosCloudDone } from "react-icons/io";
 import styles from "./Todo.module.css";
 
 export default function Todo({ todo, onIsDone, onDelete }) {
-  const handleIsDone = (e) => {
+  const handleIsDone = () => {
     const status = todo.status === "working" ? "isDone" : "working";
     onIsDone({ ...todo, status: status });
   };

@@ -6,14 +6,15 @@ import Input from "../Input/Input";
 
 export default function AddTodo({ onAdd }) {
   const [title, setTitle] = useState("");
-  const [content, setcontent] = useState("");
+  const [content, setContent] = useState("");
 
   const handleChangeTitle = (e) => setTitle(e.target.value);
-  const handleChangeContent = (e) => setcontent(e.target.value);
+  const handleChangeContent = (e) => setContent(e.target.value);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title.trim().length === 0 || content.trim().length === 0) {
+      alert("작성된 내용이 없습니다.");
       return;
     }
     onAdd({
@@ -23,7 +24,7 @@ export default function AddTodo({ onAdd }) {
       status: "working",
     });
     setTitle("");
-    setcontent("");
+    setContent("");
   };
 
   return (

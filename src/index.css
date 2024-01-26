@@ -1,11 +1,25 @@
-.all {
-  max-width: 1200px;
-  min-width: 800px;
-  height: 100%;
-  margin: auto;
+:root {
+  --boerder--radius: 2rem;
 }
 
-.mainTitle {
-  display: flex;
-  justify-content: space-between;
+body {
+  margin: 0;
+  background-color: #f1eaff;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.home {
+  background-color: #d7bbf5;
+  max-width: 1200px;
+  min-width: 800px;
+  height: 70rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  overflow: hidden;
 }
