@@ -3,24 +3,22 @@
   display: flex;
   justify-content: space-between;
   height: 5rem;
+  padding: 0 1rem;
 }
 
-.P {
-  font-size: 1.5rem;
-  color: #faf3f0;
-  font-weight: bold;
-}
-
+.P,
 .P2 {
-  font-size: 1.5rem;
   color: #faf3f0;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .Input {
   margin-left: 2rem;
+  flex: 2;
   width: 70%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 

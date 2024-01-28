@@ -4,6 +4,10 @@
   justify-content: space-around;
 }
 
+.WorkingHeader {
+  position: relative;
+}
+
 .Working {
   color: #faf3f0;
   width: 40%;
@@ -56,4 +60,27 @@
   background-color: #beadfa;
   border-radius: 6px;
   border: 3px solid #f0f0f0;
+}
+
+/*Button*/
+
+.Buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 90%;
+  right: 10px;
+}
+
+.Ascending,
+.Descending {
+  background-color: transparent;
+  border: none;
+  color: #756ab6;
+  font-size: 1rem;
+}
+
+.Ascending:hover,
+.Descending:hover {
+  color: #5d3587;
 }

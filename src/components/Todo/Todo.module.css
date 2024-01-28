@@ -1,8 +1,31 @@
-.List {
-  border: 1px solid #faf3f0;
-  margin-top: 1rem;
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ListAll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid #faf3f0;
   border-radius: 2rem;
-  padding-bottom: 1rem;
+  margin-top: 1rem;
+  width: 80%;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 20px;
 }
 
 .IconButton {
@@ -21,4 +44,21 @@
 
 .Icon:hover {
   color: #5d3587;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Date {
+  font-size: 13px;
+  font-weight: bold;
+  color: #d35d6e;
+}
+
+.GapDay {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffd966;
 }
