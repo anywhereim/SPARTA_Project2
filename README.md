@@ -11,7 +11,7 @@
 ### 📷 사용 이미지
 | 기본 페이지 | 사용 시 |
 | --- | --- |
-|![before](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/4478da14-fe17-4c8d-bba5-a1703faa83ab)|![use](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/31837f83-c816-4acb-be39-ef3ae7a747da)|
+|![before](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/4478da14-fe17-4c8d-bba5-a1703faa83ab)|![use](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/30815516-fce4-4a76-8b5d-0ddf65ef2055)|
 ***
 ### ❓사용방법
 1. 제목과 내용을 입력 후 Add 버튼 클릭
@@ -29,4 +29,5 @@
 | 3 | Input | 단순 input 컴포넌트 |
 | 4 | Todo | Todo의 상태 변경 구현 (Working : IsDone), 삭제 구현, 디데이 구현 |
 | 5 | TodoList | 생성된 Todo 상태( Working : IsDone : Delete )에 따라 새로운 배열 생성, 마감일 기준 정렬 기능 |
+
 
