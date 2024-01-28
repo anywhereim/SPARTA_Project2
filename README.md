@@ -11,7 +11,7 @@
 ### 📷 사용 이미지
 | 기본 페이지 | 사용 시 |
 | --- | --- |
-|![메인](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/8997a8c1-4df9-48a3-a2fb-96f2b05cf2a4)|![use](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/fc658813-b141-4ea3-98c0-287286c0f42e)|
+|![before](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/4478da14-fe17-4c8d-bba5-a1703faa83ab)|![use](https://github.com/anywhereim/SPARTA_Project2/assets/134301942/31837f83-c816-4acb-be39-ef3ae7a747da)|
 ***
 ### ❓사용방법
 1. 제목과 내용을 입력 후 Add 버튼 클릭
@@ -27,5 +27,6 @@
 | 1 | AddToDo | 사용자로부터 제목, 내용, 마감일을 입력받아 ToDo 생성 |
 | 2 | Header | 단순 header 컴포넌트 |
 | 3 | Input | 단순 input 컴포넌트 |
-| 4 | Todo | Todo의 상태 변경 구현 (Working : IsDone), 삭제 구현, 디데이 구 |
+| 4 | Todo | Todo의 상태 변경 구현 (Working : IsDone), 삭제 구현, 디데이 구현 |
 | 5 | TodoList | 생성된 Todo 상태( Working : IsDone : Delete )에 따라 새로운 배열 생성, 마감일 기준 정렬 기능 |
+
