@@ -11,6 +11,7 @@
   color: #faf3f0;
   font-weight: bold;
   font-size: 20px;
+  white-space: nowrap;
 }
 
 .Input {
@@ -35,4 +36,13 @@
 
 .Button:hover {
   background-color: #5d3587;
+}
+
+@media screen {
+  .P,
+  .P2 {
+    color: #faf3f0;
+    font-weight: bold;
+    font-size: 15px;
+  }
 }

@@ -62,3 +62,11 @@ li {
   font-weight: bold;
   color: #ffd966;
 }
+
+@media screen {
+  .GapDay {
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffd966;
+  }
+}
