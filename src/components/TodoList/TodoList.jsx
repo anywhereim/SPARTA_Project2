@@ -1,22 +1,23 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import AddTodo from "../AddTodo/AddTodo";
 import Todo from "../Todo/Todo";
 import styles from "./TodoList.module.css";
 import { FaSortNumericDown, FaSortNumericUp } from "react-icons/fa";
+import { TodoContext } from "../context/TodoContext";
 
 export default function TodoList() {
-  const [todos, setTodos] = useState([]);
-  const [sortOrder, setSortOrder] = useState(null);
-
-  const handleAdd = (todo) => {
-    setTodos([...todos, todo]);
-  };
+  const {
+    todos,
+    setTodos,
+    sortOrder,
+    setSortOrder,
+    handleAdd,
+    handleDelete,
+    gapday,
+  } = useContext(TodoContext);
 
   const handleIsDone = (isdone) => {
     setTodos(todos.map((todo) => (todo.id === isdone.id ? isdone : todo)));
-  };
-  const handleDelete = (deleted) => {
-    setTodos(todos.filter((todo) => todo.id !== deleted.id));
   };
 
   const handleSortOrder = () => {

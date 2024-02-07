@@ -1,0 +1,28 @@
+.DetailForm {
+  display: flex;
+  flex-direction: row;
+  margin: 25% auto;
+  background-color: #beadfa;
+  border-radius: 1rem;
+  width: 40%;
+  height: 200px;
+}
+
+.DetailBox {
+  background-color: #beadfa;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 70%;
+  height: 50%;
+  border: 2px solid white;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+.SideDetail {
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+  right: -40px;
+}

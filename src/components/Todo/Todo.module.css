@@ -2,16 +2,18 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  border: 3px solid #faf3f0;
+  width: 80%;
+  border-radius: 2rem;
+  margin-top: 1rem;
 }
 
 .ListAll {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 3px solid #faf3f0;
   border-radius: 2rem;
   margin-top: 1rem;
-  width: 80%;
 }
 
 .List {

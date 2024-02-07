@@ -2,6 +2,7 @@ import React from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import { IoIosCloudDone } from "react-icons/io";
 import styles from "./Todo.module.css";
+import { Link } from "react-router-dom";
 
 export default function Todo({ todo, onIsDone, onDelete }) {
   const handleIsDone = () => {
@@ -38,21 +39,23 @@ export default function Todo({ todo, onIsDone, onDelete }) {
 
   return (
     <li>
-      <div className={styles.ListAll}>
-        <div className={styles.List}>
-          <p className={styles.title}>{todo.title}</p>
-          <p>{todo.content}</p>
-          <p className={styles.Date}>{todo.date}</p>
-          <p className={styles.GapDay}>{gapday()}</p>
-        </div>
-        <div className={styles.Buttons}>
-          <button className={styles.IconButton} onClick={handleIsDone}>
-            <IoIosCloudDone className={styles.Icon} />
-          </button>
-          <button className={styles.IconButton} onClick={handleDelete}>
-            <FaTrashAlt className={styles.Icon} />
-          </button>
-        </div>
+      <div className={styles.List}>
+        <p className={styles.title}>{todo.title}</p>
+        <p>{todo.content}</p>
+        <p className={styles.Date}>{todo.date}</p>
+        <p className={styles.GapDay}>{gapday()}</p>
+      </div>
+      <div className={styles.Buttons}>
+        <Link to={`/:detail/${todo.id}`}>
+          <button>상세보기</button>
+        </Link>
+
+        <button className={styles.IconButton} onClick={handleIsDone}>
+          <IoIosCloudDone className={styles.Icon} />
+        </button>
+        <button className={styles.IconButton} onClick={handleDelete}>
+          <FaTrashAlt className={styles.Icon} />
+        </button>
       </div>
     </li>
   );

@@ -1,7 +1,8 @@
 import React from "react";
-import "./index.css";
-import TodoList from "./components/TodoList/TodoList";
-import Head from "./components/Header/Head";
+// import "./index.css";
+import TodoList from "../TodoList/TodoList";
+import Head from "../Header/Head";
+import styles from "./Home.module.css";
 
 export default function Home() {
   return (

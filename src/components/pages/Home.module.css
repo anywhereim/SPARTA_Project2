@@ -1,0 +1,10 @@
+.home {
+  background-color: #d7bbf5;
+  max-width: 1200px;
+  min-width: 800px;
+  height: 70rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 5rem auto;
+}
