@@ -6,6 +6,10 @@ const TodoProvider = ({ children }) => {
   const [todos, setTodos] = useState([]);
   const [sortOrder, setSortOrder] = useState(null);
 
+  const handleIsDone = (isdone) => {
+    setTodos(todos.map((todo) => (todo.id === isdone.id ? isdone : todo)));
+  };
+
   const handleAdd = (todo) => {
     setTodos([...todos, todo]);
   };
@@ -23,6 +27,7 @@ const TodoProvider = ({ children }) => {
         setSortOrder,
         handleAdd,
         handleDelete,
+        handleIsDone,
       }}
     >
       {children}

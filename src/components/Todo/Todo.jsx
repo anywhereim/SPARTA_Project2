@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import { IoIosCloudDone } from "react-icons/io";
 import styles from "./Todo.module.css";
 import { Link } from "react-router-dom";
+import TodoProvider from "../context/TodoContext";
 
 export default function Todo({ todo, onIsDone, onDelete }) {
+  // const {
+  //   todos,
+  //   setTodos,
+  //   sortOrder,
+  //   setSortOrder,
+  //   handleAdd,
+  //   handleDelete,
+  //   handleIsDone,
+  // } = useContext(TodoProvider);
   const handleIsDone = () => {
     const status = todo.status === "working" ? "isDone" : "working";
     onIsDone({ ...todo, status: status });

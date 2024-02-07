@@ -6,15 +6,8 @@ import { FaSortNumericDown, FaSortNumericUp } from "react-icons/fa";
 import { TodoContext } from "../context/TodoContext";
 
 export default function TodoList() {
-  const {
-    todos,
-    setTodos,
-    sortOrder,
-    setSortOrder,
-    handleAdd,
-    handleDelete,
-    gapday,
-  } = useContext(TodoContext);
+  const { todos, setTodos, sortOrder, setSortOrder, handleAdd, handleDelete } =
+    useContext(TodoContext);
 
   const handleIsDone = (isdone) => {
     setTodos(todos.map((todo) => (todo.id === isdone.id ? isdone : todo)));
